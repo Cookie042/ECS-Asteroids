@@ -6,13 +6,21 @@ using Unity.Transforms;
 [AlwaysSynchronizeSystem]
 public class ProjectileFireingSystem : JobComponentSystem
 {
+    private EntityCommandBufferSystem _ecbSystem;
+    protected override void OnCreate()
+    {
+        _ecbSystem = World.GetOrCreateSystem<EntityCommandBufferSystem>();
+    }
+
     protected override JobHandle OnUpdate(JobHandle inputDeps)
     {
         var em = World.EntityManager;
         var dt = Time.DeltaTime;
+
+        var _jobecb = _ecbSystem.CreateCommandBuffer().ToConcurrent();
         
-        Entities.WithoutBurst().WithStructuralChanges().ForEach(
-            (ref PlayerShootingData shootingData, in Translation pos, in Rotation rotation) =>
+        var handle = Entities.ForEach(
+            (int nativeThreadIndex, ref PlayerShootingData shootingData, in Translation pos ,in Rotation rotation) =>
             {
                 if (!shootingData.isFiring) return;
 
@@ -22,19 +30,19 @@ public class ProjectileFireingSystem : JobComponentSystem
                 {
                     shootingData.timeSinceLastShot -= shootingData.fireRate;
 
-                     for (int i = 0; i < 100000; i++)
+                     for (int i = 0; i < 1000000; i++)
                     {
-                        Entity newBullet = EntityManager.Instantiate(shootingData.BulletPrefab);
-
-                        EntityManager.SetComponentData(newBullet,
-                            new Translation() {Value = pos.Value + math.mul(rotation.Value, new float3(0, 0, 1))});
-                        EntityManager.SetComponentData(newBullet,
-                            new Rotation() {Value = rotation.Value});
+                        Entity newBullet = _jobecb.Instantiate(nativeThreadIndex, shootingData.BulletPrefab);
+                        
+                        
+                        _jobecb.SetComponent(nativeThreadIndex, newBullet, new Translation() {Value = pos.Value + math.mul(rotation.Value, new float3(0, 0, 1))});
+                        _jobecb.SetComponent(nativeThreadIndex, newBullet, new Rotation() {Value = rotation.Value});
                     }
                 }
-            }).Run();
+            }).Schedule(inputDeps);
+        
+        _ecbSystem.AddJobHandleForProducer(handle);
 
-
-        return default;
+        return handle;
     }
 }

@@ -8,8 +8,6 @@
       <e p="Assets" t="Include">
         <e p="AstroidsInput.cs" t="Include" />
         <e p="JustDraw.cs" t="Include" />
-        <e p="lerpvsbranch.cs" t="Include" />
-        <e p="MathTesting.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Components" t="Include">
             <e p="LifetimeData.cs" t="Include" />
