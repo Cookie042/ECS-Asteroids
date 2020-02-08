@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f71a950c-7644-4597-8377-19a0383ada60" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Components/PlayerInputSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Components/MovementData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.5.1-preview.11/Unity.Transforms/Rotation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Components/ProjectileFireingSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Components/MoveForwardSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Components/PlayerMovementSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Components/MoveForward.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.5.1-preview.11/Unity.Entities/CodeGeneratedJobForEach/LambdaJobDescription.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Components/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.5.1-preview.11/Unity.Entities/Iterators/EntityQuery.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Components/PlayerShootingData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.5.1-preview.11/Unity.Transforms/Translation.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Components/PlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Components/PlayerMovementData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Components/MovementData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Components/PlayerShootingData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Components/PlayerInputSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Components/MoveForward.cs" />
+        <option value="$PROJECT_DIR$/Assets/Components/MoveForwardSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/structs/Scenes/Scripts/Structs.cs" />
+        <option value="$PROJECT_DIR$/Assets/Components/PlayerMovementSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Components/ProjectileFireingSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/angleTEst.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XKjIV0rXxDSJjVOlQtDnWBHorD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.github.izhangzhihao.rainbow.brackets.settings.RainbowConfigurable" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f71a950c-7644-4597-8377-19a0383ada60" name="Default Changelist" comment="" />
+      <created>1580801601645</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580801601645</updated>
+      <workItem from="1580801605519" duration="2959000" />
+      <workItem from="1580869025593" duration="10295000" />
+      <workItem from="1580889083269" duration="7642000" />
+      <workItem from="1581109708554" duration="3099000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="WindowStateProjectService">
+    <state x="1275" y="300" width="1285" height="886" key="#Plugins" timestamp="1581110008739">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1275" y="300" width="1285" height="886" key="#Plugins/2560.352.1920.1050/0.0.2560.1410/-1920.352.1920.1050@0.0.2560.1410" timestamp="1581110008739" />
+    <state x="1006" y="655" key="SettingsEditor" timestamp="1581110068754">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1006" y="655" key="SettingsEditor/2560.352.1920.1050/0.0.2560.1410/-1920.352.1920.1050@0.0.2560.1410" timestamp="1581110068754" />
+    <state x="890" y="511" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580878708440">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="890" y="511" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/2560.352.1920.1050/0.0.2560.1410/-1920.352.1920.1050@0.0.2560.1410" timestamp="1580878708440" />
+    <state x="871" y="530" width="672" height="678" key="search.everywhere.popup" timestamp="1581109857031">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="871" y="530" width="672" height="678" key="search.everywhere.popup/2560.352.1920.1050/0.0.2560.1410/-1920.352.1920.1050@0.0.2560.1410" timestamp="1581109857031" />
+  </component>
+</project>
