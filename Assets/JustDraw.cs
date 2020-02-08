@@ -5,7 +5,7 @@ public class JustDraw : MonoBehaviour
 {
    //Declare serializables
    [SerializeField]
-   private udcObjectPoolTransforms ObjectPool = new udcObjectPoolTransforms(100000, .1f);
+   private udcObjectPoolTransforms ObjectPool = new udcObjectPoolTransforms(1000000, 0);
 
    //Declare privates
    private List<Matrix4x4> lstStandardMatrices    = new List<Matrix4x4>( );
