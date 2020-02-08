@@ -24,7 +24,7 @@ public class PlayerInputSystem : JobComponentSystem
 
     protected override JobHandle OnUpdate(JobHandle inputDependencies)
     {
-        log(_inputActions.Player.Move.ReadValue<Vector2>());
+        Debug.Log(_inputActions.Player.Move.ReadValue<Vector2>());
         
         Entities.WithoutBurst().ForEach((ref PlayerInput pinput) =>
         {
