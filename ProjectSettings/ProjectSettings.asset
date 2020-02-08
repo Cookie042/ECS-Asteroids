@@ -123,6 +123,7 @@ PlayerSettings:
     Others: 1
   bundleVersion: 0.1
   preloadedAssets:
+  - {fileID: 2130406145106567266, guid: 79c4f70338e511344a9c96eaf41b1e8c, type: 3}
   - {fileID: 0}
   - {fileID: 0}
   metroInputSource: 0
@@ -588,9 +589,11 @@ PlayerSettings:
   webGLDecompressionFallback: 0
   scriptingDefineSymbols: {}
   platformArchitecture: {}
-  scriptingBackend: {}
+  scriptingBackend:
+    Standalone: 0
   il2cppCompilerConfiguration: {}
-  managedStrippingLevel: {}
+  managedStrippingLevel:
+    Standalone: 2
   incrementalIl2cppBuild: {}
   allowUnsafeCode: 1
   additionalIl2CppArgs: 

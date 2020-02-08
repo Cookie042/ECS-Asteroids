@@ -34,19 +34,19 @@ public class ProjectileFireingSystem : JobComponentSystem
                 {
                     shootingData.timeSinceLastShot -= shootingData.fireRate;
 
-                    quaternion curentRotation = rotation.Value;
-                    curentRotation = quaternion.AxisAngle(new float3(0,0,1), -tau * .2f);
-                    var stepAngle = .4f / 11 * tau;
+                    quaternion currentRotation = rotation.Value;
+                    //currentRotation = math.mul(currentRotation,quaternion.AxisAngle(new float3(0,1,0))) ;
+                    var stepAngle = tau / 500;
                 
-                    quaternion steprotation = quaternion.AxisAngle(new float3(0, 0, 1), stepAngle);
+                    quaternion steprotation = quaternion.AxisAngle(new float3(0, 1, 0), stepAngle);
                     
-                     for (int i = 0; i < 10; i++)
+                     for (int i = 0; i < 500; i++)
                     {
                         Entity newBullet = _jobecb.Instantiate(nativeThreadIndex, shootingData.BulletPrefab);
                         
                         _jobecb.SetComponent(nativeThreadIndex, newBullet, new Translation {Value = pos.Value + math.mul(rotation.Value, new float3(0, 0, 1))});
-                        _jobecb.SetComponent(nativeThreadIndex, newBullet, new Rotation {Value = curentRotation});
-                        curentRotation = math.mul(curentRotation, steprotation);
+                        _jobecb.SetComponent(nativeThreadIndex, newBullet, new Rotation {Value = currentRotation});
+                        currentRotation = math.mul(currentRotation, steprotation);
                     }
                 }
             }).Schedule(inputDeps);

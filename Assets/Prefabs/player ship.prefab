@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 4755662970992479674}
   - component: {fileID: 4755662970992479673}
   - component: {fileID: 4755662970992479672}
-  - component: {fileID: 4755662970992479679}
   - component: {fileID: 4755662970992479677}
   - component: {fileID: 4755662970992479651}
   m_Layer: 0
@@ -32,7 +31,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4755662970992479675}
-  m_LocalRotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -101,7 +100,7 @@ MeshCollider:
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 5060444177187149915, guid: 2e99dc460e4d8eb45bed3f6ad72c5bc7, type: 3}
+  m_Mesh: {fileID: -2232952877369940510, guid: 0b7825dd0a7bc0744a5226eb7f767016, type: 3}
 --- !u!114 &4755662970992479674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,23 +142,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b44682557dbaf54408ae1d1f1a4fe31c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxMoveSpeed: 150
-  acceleration: 75
+  maxMoveSpeed: 100
+  acceleration: 55
   maxTurnSpeed: 2
-  angularAccleration: 4
---- !u!114 &4755662970992479679
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4755662970992479675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86df3f673ef24de0b7ab25a63bcf4530, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1
+  angularAccleration: 3
 --- !u!114 &4755662970992479677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -174,7 +160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BulletPrefab: {fileID: 2130406145106567266, guid: 79c4f70338e511344a9c96eaf41b1e8c, type: 3}
   timeSinceLastShot: 0
-  fireRate: 0.01
+  fireRate: 0.1
   isFiring: 0
 --- !u!114 &4755662970992479651
 MonoBehaviour:
@@ -190,8 +176,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MotionType: 0
   m_Mass: 1
-  m_LinearDamping: 0.25
-  m_AngularDamping: 0.25
+  m_LinearDamping: 0.125
+  m_AngularDamping: 0.125
   m_InitialLinearVelocity:
     x: 0
     y: 0
