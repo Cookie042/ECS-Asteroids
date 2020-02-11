@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelUserStore">
-    <attachedFolders />
+    <attachedFolders>
+      <Path>../Local Packages/testPackage</Path>
+    </attachedFolders>
     <explicitIncludes>
       <Path>Library/PackageCache/com.unity.build@0.1.0-preview.1</Path>
       <Path>Library/PackageCache/com.unity.burst@1.2.1</Path>
       <Path>Library/PackageCache/com.unity.collections@0.5.1-preview.11</Path>
+      <Path>Library/PackageCache/com.unity.dots.editor@0.3.0-preview</Path>
       <Path>Library/PackageCache/com.unity.entities@0.5.1-preview.11</Path>
       <Path>Library/PackageCache/com.unity.ext.nunit@1.0.0</Path>
       <Path>Library/PackageCache/com.unity.ide.rider@1.2.1</Path>
