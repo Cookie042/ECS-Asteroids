@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelUserStore">
-    <attachedFolders>
-      <Path>../Local Packages/testPackage</Path>
-    </attachedFolders>
+    <attachedFolders />
     <explicitIncludes>
       <Path>Library/PackageCache/com.unity.build@0.1.0-preview.1</Path>
       <Path>Library/PackageCache/com.unity.burst@1.2.1</Path>
@@ -49,7 +47,6 @@
       <Path>Builds</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
-      <Path>Temp</Path>
       <Path>UserSettings</Path>
       <Path>obj</Path>
     </explicitExcludes>
