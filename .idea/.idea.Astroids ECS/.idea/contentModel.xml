@@ -18,15 +18,20 @@
         <e p="JustDraw.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Components" t="Include">
+            <e p="DestroyAfterLifetimeData.cs" t="Include" />
             <e p="LifetimeData.cs" t="Include" />
-            <e p="MoveForward.cs" t="Include" />
-            <e p="MoveForwardSystem.cs" t="Include" />
+            <e p="MoveForwardData.cs" t="Include" />
             <e p="MovementData.cs" t="Include" />
-            <e p="PlayerInput.cs" t="Include" />
+            <e p="PlayerInputData.cs" t="Include" />
+            <e p="PlayerShootingData.cs" t="Include" />
+          </e>
+          <e p="Systems" t="Include">
+            <e p="LifetimeDestroySystem.cs" t="Include" />
+            <e p="MoveForwardSystem.cs" t="Include" />
             <e p="PlayerInputSystem.cs" t="Include" />
             <e p="PlayerMovementSystem.cs" t="Include" />
-            <e p="PlayerShootingData.cs" t="Include" />
             <e p="ProjectileFireingSystem.cs" t="Include" />
+            <e p="UpdateLifetimeSystem.cs" t="Include" />
           </e>
           <e p="Tags" t="Include">
             <e p="SpawnPosition_Tag.cs" t="Include" />

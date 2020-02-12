@@ -2,7 +2,7 @@
 using Unity.Mathematics;
 
 [GenerateAuthoringComponent]
-public struct PlayerInput : IComponentData
+public struct PlayerInputData : IComponentData
 {
     public float2 inputDirection;
     public float fireing;

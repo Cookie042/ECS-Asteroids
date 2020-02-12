@@ -121,6 +121,84 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &1252383779 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4755662970992479675, guid: 0f82b074f3834104eaffa19879bac27d, type: 3}
+  m_PrefabInstance: {fileID: 4755662972765748627}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1252383780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252383779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b275e5f92732148048d7b77e264ac30e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShapeType: 30
+  m_PrimitiveCenter:
+    x: 0
+    y: 0
+    z: -0.0077676773
+  m_PrimitiveSize:
+    x: 5.0804257
+    y: 1.3936338
+    z: 5.4051566
+  m_PrimitiveOrientation:
+    Value:
+      x: -0
+      y: 0
+      z: 0
+    RotationOrder: 4
+  m_Capsule:
+    Height: 5.4051566
+    Radius: 2.5402129
+    Axis: 2
+  m_Cylinder:
+    Height: 1.3936338
+    Radius: 2.7025783
+    Axis: 1
+  m_CylinderSideCount: 20
+  m_SphereRadius: 2.7025783
+  m_MinimumSkinnedVertexWeight: 0.1
+  m_ConvexHullGenerationParameters:
+    m_SimplificationTolerance: 0.08107734
+    m_BevelRadius: 0.05
+    m_MinimumAngle: 2.5000002
+  m_CustomMesh: {fileID: 0}
+  m_ForceUnique: 0
+  m_Material:
+    m_SupportsTemplate: 1
+    m_Template: {fileID: 0}
+    m_IsTrigger:
+      m_Override: 0
+      m_Value: 0
+    m_Friction:
+      m_Override: 0
+      m_Value:
+        Value: 0.5
+        CombineMode: 0
+    m_Restitution:
+      m_Override: 0
+      m_Value:
+        Value: 0
+        CombineMode: 2
+    m_BelongsTo:
+      m_Override: 0
+      m_Value: 0101010101010101010101010101010101010101010101010101010101010101
+    m_CollidesWith:
+      m_Override: 0
+      m_Value: 0101010101010101010101010101010101010101010101010101010101010101
+    m_RaisesCollisionEvents:
+      m_Override: 0
+      m_Value: 0
+    m_CustomTags:
+      m_Override: 0
+      m_Value: 0000000000000000
+  m_ConvexRadius_Deprecated: -1
 --- !u!1001 &4755662972765748627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -130,47 +208,47 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4755662970992479649, guid: 0f82b074f3834104eaffa19879bac27d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.00012380292
       objectReference: {fileID: 0}
     - target: {fileID: 4755662970992479649, guid: 0f82b074f3834104eaffa19879bac27d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.00003797795
       objectReference: {fileID: 0}
     - target: {fileID: 4755662970992479649, guid: 0f82b074f3834104eaffa19879bac27d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.0000010794029
       objectReference: {fileID: 0}
     - target: {fileID: 4755662970992479649, guid: 0f82b074f3834104eaffa19879bac27d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.000000021855694
+      value: 0.002465262
       objectReference: {fileID: 0}
     - target: {fileID: 4755662970992479649, guid: 0f82b074f3834104eaffa19879bac27d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.00796283
       objectReference: {fileID: 0}
     - target: {fileID: 4755662970992479649, guid: 0f82b074f3834104eaffa19879bac27d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.0025864972
       objectReference: {fileID: 0}
     - target: {fileID: 4755662970992479649, guid: 0f82b074f3834104eaffa19879bac27d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9999619
       objectReference: {fileID: 0}
     - target: {fileID: 4755662970992479649, guid: 0f82b074f3834104eaffa19879bac27d, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4755662970992479649, guid: 0f82b074f3834104eaffa19879bac27d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 0.28
       objectReference: {fileID: 0}
     - target: {fileID: 4755662970992479649, guid: 0f82b074f3834104eaffa19879bac27d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -0.91300005
       objectReference: {fileID: 0}
     - target: {fileID: 4755662970992479649, guid: 0f82b074f3834104eaffa19879bac27d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -0.29900002
       objectReference: {fileID: 0}
     - target: {fileID: 4755662970992479675, guid: 0f82b074f3834104eaffa19879bac27d, type: 3}
       propertyPath: m_Name

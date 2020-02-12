@@ -1,5 +1,4 @@
 ﻿using Unity.Entities;
-using Unity.Mathematics;
 using Unity.Transforms;
 using UnityEngine;
 
@@ -9,13 +8,10 @@ public class SpawnTargetDataAuthoring : MonoBehaviour, IConvertGameObjectToEntit
     {
         var parent = dstManager.GetComponentData<Parent>(entity);
 
-        var ltwBuffer = conversionSystem.GetComponentDataFromEntity<LocalToWorld>();
-
-        dstManager.AddComponentData(entity, new SpawnTargetData());
+        dstManager.AddComponentData(entity, new SpawnTargetTag());
         
         DynamicBuffer<SpawnTargetElementData> buffer;
-        if (dstManager.HasComponent<SpawnTargetElementData>(parent.Value) 
-            && dstManager.HasComponent<SpawnerData>(parent.Value))
+        if (dstManager.HasComponent<SpawnTargetElementData>(parent.Value) && dstManager.HasComponent<SpawnerData>(parent.Value))
             buffer = dstManager.GetBuffer<SpawnTargetElementData>(parent.Value);
         else
             buffer = dstManager.AddBuffer<SpawnTargetElementData>(parent.Value);
@@ -24,10 +20,4 @@ public class SpawnTargetDataAuthoring : MonoBehaviour, IConvertGameObjectToEntit
     }
 }
 
-public struct SpawnTargetData : IComponentData
-{
-    public SpawnTargetData(int i)
-    {
-        
-    }
-}
+public struct SpawnTargetTag : IComponentData{}
